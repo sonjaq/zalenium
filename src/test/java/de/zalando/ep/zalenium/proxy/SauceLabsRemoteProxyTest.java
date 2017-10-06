@@ -216,7 +216,7 @@ public class SauceLabsRemoteProxyTest {
             when(env.getBooleanEnvVariable("ZALENIUM_SEND_ANONYMOUS_USAGE_INFO", false))
                     .thenReturn(true);
             when(env.getStringEnvVariable("ZALENIUM_GA_API_VERSION", "")).thenReturn("1");
-            when(env.getStringEnvVariable("ZALENIUM_GA_TRACKING_ID", "")).thenReturn("UA-88441352");
+            when(env.getStringEnvVariable("ZALENIUM_GA_TRACKING_ID", "")).thenReturn("UA-XXXXXX");
             when(env.getStringEnvVariable("ZALENIUM_GA_ENDPOINT", ""))
                     .thenReturn("https://www.google-analytics.com/collect");
             when(env.getStringEnvVariable("ZALENIUM_GA_ANONYMOUS_CLIENT_ID", ""))
